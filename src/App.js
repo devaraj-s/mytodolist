@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import React,{useState} from 'react'
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faCircleCheck,faPen,faTrashCan} from '@fortawesome/free-solid-svg-icons';
 
+import './App.css';
 function App() {
 
   const [todo,setTodo] = useState([
